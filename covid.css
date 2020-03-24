@@ -1,0 +1,25 @@
+.entireTable {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+  }
+
+#state {
+   background-color: cadetblue;
+}
+
+#positive {
+    background-color: red;
+}
+
+#negative {
+    background-color: seagreen;
+}
