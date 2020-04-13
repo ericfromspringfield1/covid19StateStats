@@ -11,27 +11,20 @@
 </head>
 
 <body>
-    <h2 class="heading--medium">My Itinerary</h2>
-    <table id="my-itinerary">
-      <tr id="stateStats">
-        <th id="state">State</th>
-        <th id="positive">Positive Results</th>
-        <th id="negative">Negative Results</th>
-        <th id="total">Total Tests</th>
-        <th id="hospitalized">Hospitalized</th>
-        <th id="death">Deaths</th>
-        <th id="lastUpdateEt">Updated</th>
-        <th id="checkTimeEt">Last Time Checked</th>
-        <th id="statePopulation">State Population</th>
-        <th id="percentPopulationTestedteStat">Percent Of Population Tested</th>
-        <th id="percentPopulationPositive">Percent Of Population Positive</th>  
-      </tr>
-    </table>
+<div class="wrapper">
+  <div id="state"></div>
+  <div id="positive"></div>
+  <div id="negative"></div>
+  <div id="totalTestResults"></div>
+  <div id="death"></div>
+</div>
 
-  <script src="covid.js"></script>
+  <table id="target"></table>
+
+  <script src="data.js"></script>
   <script src="dom.js"></script>
   <script src="factory.js"></script>
-  <script src="main-stats.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
