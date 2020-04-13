@@ -17,8 +17,7 @@
 }
 
 makeTable();
-/*
-
+*/
 
 /*const statsHtmlRep = (stateObj) => {
     return `
@@ -81,5 +80,5 @@ makeTable();
     dvTable.appendChild(table);
     
   }
-  
   */
+  

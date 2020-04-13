@@ -21,10 +21,10 @@ fetch(dataURL)
 })
 .then(function(data) {
   console.log(data["1"], data["42"])
-  document.getElementById("state").textContent = `State - ${data["1"].state}`
-  document.getElementById("positive").textContent = `Positive Results - ${data["1"].positive}`
-  document.getElementById("negative").textContent = `Negative Results - ${data["1"].negative}`
-  document.getElementById("totalTestResults").textContent = `Total Results - ${data["1"].totalTestResults}`
-  document.getElementById("death").textContent = `Deaths - ${data["1"].death}`
+  document.getElementById("stateData").textContent = `${data["1"].state}`
+  document.getElementById("positiveData").textContent = `${data["1"].positive}`
+  document.getElementById("negativeData").textContent = `${data["1"].negative}`
+  document.getElementById("totalTestResultsData").textContent = `${data["1"].totalTestResults}`
+  document.getElementById("deathData").textContent = `${data["1"].death}`
 })
 
