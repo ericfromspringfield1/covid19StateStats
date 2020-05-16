@@ -19,11 +19,31 @@ th, td {
 }
 
 #positive {
-    background-color: red;
+    background-color: crimson;
     color: white;
 }
 
 #negative {
-    background-color: seagreen;
+    background-color: slategray;
+    color: white;
+}
+
+#totalTestResults {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#deathData {
+    background-color: black;
+    color: white;
+}
+
+#percentPositive {
+    background-color: coral;
+    color: white;
+}
+
+#percentDeathOfPositive {
+    background-color: green;
     color: white;
 }
